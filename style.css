@@ -140,13 +140,13 @@ ul {
 
 @media (min-width: 720px) {
   body {
-    background: url(images/background-desktop.svg) center;
+    background: url(images/background-desktop.svg) center/cover no-repeat;
   }
 
   #faixa {
     position: relative;
     z-index: 1;
-    bottom: 230px;
+    bottom: 290px;
     display: flex;
     justify-content: center;
     /* display: block; */
@@ -155,9 +155,9 @@ ul {
   main {
     width: 400px;
     border-radius: 1rem;
-    min-height: 700px;
+    min-height: 412px;
     position: absolute;
-    top: 120px;
+    top: 100px;
 
     background: rgba(176, 172, 172, 0.1) transparent;
     box-shadow: 0 8px 32px 0 rgba(71, 72, 78, 0.37);
@@ -176,10 +176,16 @@ ul {
   #faixa {
     display: flex;
     justify-content: center;
+    bottom: 280px;
+  }
+
+  main {
+    height: 612px;
   }
 
   .container {
     position: relative;
-    top: -94px;
+    top: -84px;
+    height: 300px;
   }
 }
